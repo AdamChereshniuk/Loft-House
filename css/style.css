@@ -1,0 +1,364 @@
+body {
+    color: #fff;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #242B33;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section-offset {
+    padding-top: 120px;
+}
+
+/* First Screen */
+.first-screen {
+    background-image: url("../img/Hero/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Header */
+.header {
+    padding: 30px 0;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__item > a {
+    color: #fff;
+    line-height: 100%;
+    letter-spacing: 5%;
+}
+
+/* Hero */
+.hero-section {
+    padding: 200px 0 75px;
+}
+
+.hero__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero__title {
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+    color: #D4C17F;
+    width: 100%;
+    max-width: 556px;
+    margin-bottom: 80px;
+}
+
+.hero__btn {
+    margin-bottom: 200px;
+}
+
+.hero__details {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.hero__detail {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+/* Advantages */
+.advantages__list {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.advantages__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.advantages__item-img {
+    width: 80px;
+    height: 80px;
+}
+
+.advantages__item-text {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    width: 100%;
+    max-width: 193px;
+}
+
+/* Flat */
+.flat__title {
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    color: #D4C17F;
+    margin-bottom: 90px;
+}
+
+.flat__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.flat__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 320px;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flat__item:nth-child(1) {
+    background-image: url("../img/Flats/1.jpg");
+}
+.flat__item:nth-child(2) {
+    background-image: url("../img/Flats/2.jpg");
+}
+.flat__item:nth-child(3) {
+    background-image: url("../img/Flats/3.jpg");
+}
+.flat__item:nth-child(4) {
+    background-image: url("../img/Flats/4.jpg");
+}
+
+.flat__item-title {
+    margin-top: auto;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+/* Look */
+.look-section {
+    padding: 180px 0;
+}
+
+.look__title {
+    margin-bottom: 20px;
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    color: #D4C17F;
+}
+
+.look__bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.look__text {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.look__form {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.look__form-top, .look__form-bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 30px;
+}
+
+.look__form-input {
+    font-size: 16px;
+    line-height: 27px;
+    padding: 12px;
+    color: #BEBEBE;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.look__form-input::placeholder {
+    color: #BEBEBE;
+}
+
+.look__form-text {
+    color: #E7E7E7;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.look__form-btn {
+    padding: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    background-color: #D4C17F;
+}
+
+/* Video */
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Map */
+.map-section {
+    padding-top: 180px;
+}
+
+.map__title {
+    color: #D4C17F;
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    margin-bottom: 90px;
+}
+
+.map__img {
+    width: 100%;
+    height: auto;
+}
+
+/* Question */
+.question-section {
+    padding: 180px 0;
+}
+
+.question__title {
+    color: #D4C17F;
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    margin-bottom: 40px;
+}
+
+.question__form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 30px;
+}
+
+.question__form-text {
+    color: #E7E7E7;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.question__form-input {
+    font-size: 16px;
+    padding: 12px;
+    color: #BEBEBE;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.question__form-input::placeholder {
+    color: #BEBEBE;
+}
+
+.question__form-btn {
+    padding: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    background-color: #D4C17F;
+}
+
+/* Footer */
+.footer {
+    padding: 60px 0;
+    background-color: #2D343C;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer__item-link {
+    color: #fff;
+    line-height: 100%;
+    letter-spacing: 5%;
+}
+
+.footer__right {
+    display: flex;
+    gap: 60px;
+}
+
+.footer__details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__details > div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer__detail {
+    line-height: 100%;
+    letter-spacing: 5%;
+}
+
+.footer__detail > a {
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 5%;
+    color: #D4C17F;
+}
+
+.footer__socials {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
