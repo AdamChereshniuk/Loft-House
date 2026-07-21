@@ -1,0 +1,161 @@
+@media (max-width: 1124px) {
+    /* Look */
+    .look__bottom {
+        grid-template-columns: 1fr;
+    }
+
+    /* Question */
+    .question__form {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .question__form-text {
+        display: none;
+    }
+}
+
+@media (max-width: 920px) {
+    /* Flat */
+    .flat__title, .map__title {
+        margin-bottom: 45px;
+    }
+
+    .flat__item {
+        padding: 25px;
+    }
+
+    /* Video */
+    iframe {
+        width: 600px;
+        height: 350px;
+    }
+
+    /* Footer */
+    .footer__list {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Header */
+    .header__inner {
+        flex-direction: column;
+    }
+
+    .header__list {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 16px 24px;
+    }
+
+    /* Advantages */
+    .advantages__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .advantages__item {
+        gap: 24px;
+    }
+
+    /* Flat */
+    .flat__list {
+        grid-template-columns: 1fr;
+    }
+
+    .flat__item {
+        padding: 40px;
+    }
+
+    /* Question */
+    .question__form {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 640px) {
+    /* Hero */
+    .hero__title .map__title {
+        font-size: 42px;
+    }
+    
+    .hero__details {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    /* Video */
+    iframe {
+        width: 500px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 560px) {
+    /* Look */
+    .look__form {
+        gap: 20px;
+    }
+
+    .look__form-top, .look__form-bottom {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .look__form-text {
+        display: none;
+    }
+
+    /* Video */
+    iframe {
+        width: 400px;
+        height: 220px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Hero */
+    .hero__title, .question__title {
+        font-size: 36px;
+    }
+
+    /* Advantages */
+    .advantages__list {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    /* Flat */
+    .flat__title, .question__title {
+        margin-bottom: 25px;
+    }
+
+    .flat__item {
+        padding: 20px;
+    }
+
+    .flat__item-title {
+        font-size: 22px;
+    }
+
+    /* Look */
+    .look__title {
+        font-size: 32px;
+    }
+
+    /* Map */
+    .map-section {
+        display: none;
+    }
+
+    /* Video */
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    /* Footer */
+    .footer__inner {
+        flex-direction: column;
+    }
+}

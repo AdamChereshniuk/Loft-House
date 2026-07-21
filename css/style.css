@@ -92,7 +92,8 @@ body {
 
 /* Advantages */
 .advantages__list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     gap: 70px;
 }
@@ -126,7 +127,7 @@ body {
     font-size: 36px;
     line-height: 100%;
     color: #D4C17F;
-    margin-bottom: 90px;
+    margin-bottom: 40px;
 }
 
 .flat__list {
@@ -235,6 +236,8 @@ body {
 iframe {
     display: block;
     margin: 0 auto;
+    width: 800px;
+    height: 450px;
 }
 
 /* Map */
@@ -248,7 +251,7 @@ iframe {
     font-weight: 700;
     font-size: 36px;
     line-height: 100%;
-    margin-bottom: 90px;
+    margin-bottom: 40px;
 }
 
 .map__img {
