@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: #fff;
     font-family: "Raleway";
@@ -47,6 +51,11 @@ body {
     color: #fff;
     line-height: 100%;
     letter-spacing: 5%;
+    transition: all 0.3s ease-in-out;
+}
+
+.header__item > a:hover {
+    color: #D4C17F;
 }
 
 /* Hero */
@@ -144,6 +153,7 @@ body {
     padding: 50px;
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 
 .flat__item:nth-child(1) {
@@ -210,6 +220,7 @@ body {
     color: #BEBEBE;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.2);
+    outline: none;
 }
 
 .look__form-input::placeholder {
@@ -293,6 +304,7 @@ iframe {
     color: #BEBEBE;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.2);
+    outline: none;
 }
 
 .question__form-input::placeholder {
