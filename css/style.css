@@ -341,6 +341,11 @@ iframe {
     color: #fff;
     line-height: 100%;
     letter-spacing: 5%;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer__item-link:hover {
+    color: #D4C17F;
 }
 
 .footer__right {
